@@ -36,11 +36,9 @@ button {
 }
 
 @media (max-width: 768px) {
-
   .header {
     text-align: center;
   }
-
 }
 
 .main {
@@ -70,7 +68,7 @@ button {
 }
 
 .button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -135,6 +133,7 @@ button {
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  color: #000;
 }
 
 .section__tasks-item .input__task {
@@ -167,6 +166,11 @@ button {
   width: 224px;
 }
 
+.edit-mode .section__tasks-label {
+  color: #333;
+  display: none;
+}
+
 .edit-mode .section__tasks-label--completed {
   display: none;
-} 
+}
